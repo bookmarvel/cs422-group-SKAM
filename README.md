@@ -6,10 +6,10 @@ is a workout planning website tailored for beginners and casual exercisers.
 
 The platform enables users to create personalized workout schedules and explore a database of exercises suited to various fitness levels and equipment availability.
 
-* Website
+* **Website**
 
   * https://bookmarvel.github.io/cs422-group-SKAM/
-* **Contributors**
+* **Creators**
 
   * Sonina Mut (smut3)
   * Kathleen Melonashi (kmelo2)
