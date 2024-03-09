@@ -9,7 +9,7 @@ The platform enables users to create personalized workout schedules and explore 
 * **Website**
 
   * https://bookmarvel.github.io/cs422-group-SKAM/
-* **Creators**
+* **Contributors**
 
   * Sonina Mut (smut3)
   * Kathleen Melonashi (kmelo2)
