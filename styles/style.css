@@ -1,0 +1,103 @@
+/***********************************************************************************************************
+    Names: Sonina Mut (smut3), Kathleen Melonashi (kmelo2), Ana Theys (athey3), Marianne Hernandez (mhern85)
+    Course: CS 422 - Spring 2024
+    Due Date:
+    Group 2 Name: SKAM 
+    Title: Move Yourself
+    Description: This project will demonstrate the gym for the beginner to work on their
+               following the website instructions to work out at home. The users are able to use the website
+               by adding teir favorite work on the calendar to keep track their exercise. 
+               Th project will be using HTML, CSS, JavaScript and Python(HTTP request server)
+************************************************************************************************************/
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Comic Neue", "Dancing Script", "Great Vibes", "Kalam", "Open Sans Condensed", "Shadows Into Light";
+    margin: 0 auto;
+    min-height: 10px;
+    max-height: 100px;
+}
+
+/* row */
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+/* Logo */
+.logo {
+    margin: 0 auto;
+}
+
+header h1 {
+    font-size: 2em;
+    margin: 0;
+}
+
+
+/* Navigation */
+
+nav {
+    justify-content: flex-end;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(20, 74, 136);
+    position: sticky;
+}
+
+nav a {
+    color: #FFF;
+    padding: 25px 18px;
+    text-decoration: solid;
+}
+
+nav a:hover {
+    background-color: #E9F6c2;
+    color: #000;
+}
+
+
+/* Image */
+.image {
+    position: relative;
+    text-align: center;
+    color: rgb(110, 109, 109);
+}
+/* .image figure {
+    flex-basis: 100px;
+    flex-direction: row;
+    float: left;
+} */
+
+.image figure img {
+    height: 100%;
+    width: 100%;
+    /* border-radius: 10%; */
+    background-repeat: no-repeat;
+}
+.text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+/* Footer */
+
+footer {
+    justify-content: flex-end;
+    padding: 2px;
+    left: 0px;
+    text-align: center;
+    min-width: 100%;
+    color:#000;
+    background-color: white;
+    font-family: Dancing Scrip, Shadows Into Light;
+    font-size: medium;
+    float: right;
+}
+
