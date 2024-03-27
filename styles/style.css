@@ -108,9 +108,44 @@ nav a:hover {
     clear: both;
 }
 
+/* info_bdeforeReg */
+.info {
+    margin: 50px;
+    border-radius: 15px;
+}
+.info p{
+    background-color:#e0e3ff;
+}
+.info h1{
+    text-align: center;
+
+}
+
+.faq h1 {
+    text-align: center;
+}
+.faq details{
+    margin: 5px;
+    padding: 5px 20px;
+    border-radius: 15px;
+    background-color: #FAFAD2;
+}
+
+/* info_afterReg */
+.info h1{
+    text-align: center;
+
+}
+
+.faq h1 {
+    text-align: center;
+}
+
 /* Footer */
 
 footer {
+    /* margin: 50px;
+    border-radius: 15px; */
     justify-content: flex-end;
     padding: 2px;
     left: 0px;
