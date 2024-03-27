@@ -19,6 +19,7 @@ body {
     margin: 0 auto;
     min-height: 10px;
     max-height: 100px;
+    background-color:#e0e3ff;
 }
 
 /* row */
@@ -45,7 +46,7 @@ nav {
     justify-content: flex-end;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: rgb(20, 74, 136);
+    background-color: #5083BE;
     position: sticky;
 }
 
@@ -141,6 +142,16 @@ nav a:hover {
     text-align: center;
 }
 
+/* Sign In and Register */
+label {
+    display: block;
+  }
+  
+  input[type='submit'],
+  label {
+    margin-top: 1rem;
+  }
+  
 /* Footer */
 
 footer {
@@ -152,7 +163,7 @@ footer {
     text-align: center;
     min-width: 100%;
     color:#000;
-    background-color: white;
+    background-color: #5083BE;
     font-family: Dancing Scrip, Shadows Into Light;
     font-size: medium;
     float: right;
